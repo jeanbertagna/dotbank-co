@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using dotbank_co;
+
+namespace DotBank
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Account myAccount = new Account();
+        }
+    }
+}
